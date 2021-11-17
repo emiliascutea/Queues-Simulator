@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="693.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label layoutX="29.0" layoutY="46.0" text="Number of clients:" />
+      <Label layoutX="296.0" layoutY="46.0" text="Number of queues:" />
+      <Label layoutX="581.0" layoutY="46.0" text="Maximum simulation time:" />
+      <Label layoutX="29.0" layoutY="93.0" text="Minimum arrival time:" />
+      <Label layoutX="386.0" layoutY="93.0" text="Maximum arrival time:" />
+      <Label layoutX="29.0" layoutY="139.0" text="Minimum service time:" />
+      <Label layoutX="386.0" layoutY="139.0" text="Maximum service time:" />
+      <TextField fx:id="N" layoutX="134.0" layoutY="43.0" prefHeight="23.0" prefWidth="79.0" promptText="Type here" />
+      <TextField fx:id="Q" layoutX="407.0" layoutY="43.0" prefHeight="23.0" prefWidth="79.0" promptText="Type here" />
+      <TextField fx:id="maxSimulationTime" layoutX="730.0" layoutY="43.0" prefHeight="23.0" prefWidth="79.0" promptText="Type here" />
+      <TextField fx:id="minArrivalTime" layoutX="149.0" layoutY="90.0" prefHeight="23.0" prefWidth="79.0" promptText="Type here" />
+      <TextField fx:id="maxArrivalTime" layoutX="557.0" layoutY="90.0" prefHeight="23.0" prefWidth="79.0" promptText="Type here" />
+      <TextField fx:id="minServiceTime" layoutX="160.0" layoutY="136.0" prefHeight="23.0" prefWidth="79.0" promptText="Type here" />
+      <TextField fx:id="maxServiceTime" layoutX="557.0" layoutY="136.0" prefHeight="23.0" prefWidth="79.0" promptText="Type here" />
+      <TextArea fx:id="displayTextArea" editable="false" layoutX="123.0" layoutY="234.0" prefHeight="314.0" prefWidth="668.0" />
+      <Button fx:id="startSimulation" layoutX="405.0" layoutY="196.0" mnemonicParsing="false" text="Start simulation" />
+   </children>
+</AnchorPane>
